@@ -12,18 +12,30 @@ body {
     display: block;
     width: 250px;
     margin: 50px auto;
-    padding: 20px;
-    background-color: #ff4757; 
-    color: white;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50px;
     font-size: 24px;
     font-weight: bold;
-    transition: 0.3s;
+    color: #E0E0E0;
+    transition: 0.2s;
+    
+    /* Minecraft 经典灰色背景 */
+    background-color: #7A7A7A; 
+    
+    /* 核心属性：纯直角长方形 */
+    border-radius: 0; 
+
+    /* 模拟像素立体边框 */
+    border: 3px solid #000000;
+    box-shadow: inset -4px -4px 0px 0px #373737, 
+                inset 4px 4px 0px 0px #AEAEAE;
 }
 
+/* 增加悬停变亮效果 */
 .game-button:hover {
-    background-color: #ff6b81;
-    transform: scale(1.1); 
+    background-color: #8B8B8B;
+    color: #FFFFFF;
+    box-shadow: inset -4px -4px 0px 0px #4A4A4A, 
+                inset 4px 4px 0px 0px #C6C6C6;
 }
